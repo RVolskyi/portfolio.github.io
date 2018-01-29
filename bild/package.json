@@ -1,0 +1,22 @@
+{
+  "name": "portfolio1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RVolskyi/portfolio.git"
+  },
+  "keywords": [
+    "Rvolik28121983"
+  ],
+  "author": "Rvolskyi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RVolskyi/portfolio/issues"
+  },
+  "homepage": "https://github.com/RVolskyi/portfolio#readme"
+}
