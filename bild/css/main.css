@@ -1,6 +1,48 @@
+@charset "UTF-8";
+/* цвет фона для всего сайта */
+html {
+  font-size: 14px;
+}
+
 body {
-  background: darkorange;
-  padding: 10%;
-  color: blue;
-  margin: 35px;
+  background-color: #eef3f5;
+  color: #131313;
+  font-family: 'Roboto', sans-serif;
+  padding-top: 40px;
+}
+
+body .top-nav {
+  background-color: #fff;
+  padding: 15px;
+}
+
+body .top-nav_menu {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+body .top-nav_menu li {
+  margin-right: 45px;
+}
+
+body .top-nav_menu li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #131313;
+  font-weight: 700;
+}
+
+body .top-nav_menu li a::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #009adf;
+  transform: translateY(37px) scale(0);
+  transition: all 0.2s;
+}
+
+body .top-nav_menu li a:hover::after {
+  transform: translateY(40px) scale(1);
 }

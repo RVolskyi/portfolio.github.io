@@ -20,6 +20,8 @@ gulp.task('browser-sync', function() { // Создаем таск browser-sync
 
 gulp.task('watch', ['browser-sync', 'sass'], function () {
 	gulp.watch('sass/**/*.sass', ['sass']); //наблюдение за sass файлами в папке sass
+	gulp.watch('*.html', browserSync.reload); // Наблюдение за HTML файлами в корне проекта
+	gulp.watch('js/**/*.js', browserSync.reload); // Наблюдение за JS файлами в папке js
 });
 
 gulp.task('default', ['watch']);
