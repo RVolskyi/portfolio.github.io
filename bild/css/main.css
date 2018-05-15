@@ -46,3 +46,62 @@ body .top-nav_menu li a::after {
 body .top-nav_menu li a:hover::after {
   transform: translateY(40px) scale(1);
 }
+
+body .left-sidebar {
+  margin-top: 40px;
+}
+
+body .left-sidebar_menu {
+  background-color: #fff;
+  list-style: none;
+  padding: 0;
+}
+
+body .left-sidebar_menu li {
+  -webkit-transition: all 0.15s;
+  -moz-transition: all 0.15s;
+  -ms-transition: all 0.15s;
+  -o-transition: all 0.15s;
+  transition: all 0.15s;
+}
+
+body .left-sidebar_menu li:first-child a {
+  padding-top: 20px;
+}
+
+body .left-sidebar_menu li:last-child a {
+  padding-bottom: 20px;
+}
+
+body .left-sidebar_menu li:hover {
+  background-color: #009adf;
+}
+
+body .left-sidebar_menu li:hover a {
+  color: #fff;
+}
+
+body .left-sidebar_menu a {
+  display: block;
+  padding: 15px 29px;
+  text-decoration: none;
+  color: #131313;
+}
+
+body .left-sidebar_object {
+  background-color: #fff;
+  margin-top: 30px;
+}
+
+body .left-sidebar_object-description {
+  padding: 20px;
+}
+
+body .left-sidebar_object-description h3 {
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+body .left-sidebar_object-description a {
+  color: #009adf;
+}
