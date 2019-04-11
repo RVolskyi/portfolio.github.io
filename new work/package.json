@@ -1,0 +1,15 @@
+{
+  "name": "new-work",
+  "version": "1.0.0",
+  "description": "newProject",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RVolskyi/portfolio.github.io.git/new work"
+  },
+  "author": "RV",
+  "license": "ISC"
+}
